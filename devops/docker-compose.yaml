@@ -10,5 +10,3 @@ services:
       POSTGRES_DB: gerenciador_profissionais
     ports:
       - "5432:5432"
-    volumes:
-      - ./01-gerenciador-profissionais.sql:/tmp/01-gerenciador-profissionais.sql
